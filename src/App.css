@@ -1,0 +1,130 @@
+* {
+  font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffb4c2;
+  color: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.App {
+  width: 90vw;
+  background-color: #667bc6;
+  color: #fdffd2;
+  padding: 10px;
+}
+
+.upload {
+}
+
+.imageContainer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.imageContainer img {
+  object-fit: contain;
+}
+
+#headUpload {
+  margin-right: 10px;
+}
+
+#headUpload label {
+  cursor: pointer;
+}
+
+.searchSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.suprise {
+  background-color: #ececf1;
+  color: #000;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  margin: 0 0 2px 5px;
+  border: none;
+  text-align: center;
+}
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+}
+
+.inputContainer input {
+  border: none;
+  padding: 13px 14px;
+  box-sizing: border-box;
+  font-size: 15px;
+  outline: none;
+  width: 90%;
+  font-weight: 200;
+  background-color: #fdffd2;
+}
+
+.inputContainer input::placeholder {
+  color: #cacaca;
+  font-weight: 200;
+  color: #667bc6;
+}
+
+.inputContainer button {
+  min-width: 10%;
+  border: none;
+  border-left: 1px #cacaca solid;
+  background-color: #fff;
+  color: #777;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.extraInfo {
+  text-align: center;
+  font-size: 25px;
+}
+
+.extra {
+  text-align: center;
+  font-size: 15px;
+}
+
+.extra button {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.answer {
+  box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+  padding: 13px 14px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 6px;
+}
