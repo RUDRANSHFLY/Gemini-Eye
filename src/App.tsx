@@ -25,7 +25,10 @@ const App = () => {
           method: "POST",
           body: formData,
         };
-        const response = await fetch("http://localhost:8000/upload", options);
+        const response = await fetch(
+          "https://gemini-eye.onrender.com/upload",
+          options
+        );
         const data = response.json();
         console.table(data);
       } catch (err) {
@@ -53,7 +56,7 @@ const App = () => {
       };
 
       const responsePrompt = await fetch(
-        "http://localhost:8000/gemini-eye",
+        "https://gemini-eye.onrender.com/gemini-eye",
         options
       );
       const answerPrompt = await responsePrompt.text();
